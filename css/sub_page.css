@@ -63,7 +63,10 @@ a{color:#333;}
     #detail-box li:nth-of-type(4){color:tomato; font-weight: bold; font-size:14px;}
 .size-box{width:900px; margin: 0 auto; margin-top:10px;}
     .size-box table{border-collapse: collapse; border-bottom:2px solid #333; border-top:2px solid #333;}
+    .size-box caption{text-align: left; font-weight: bold; font-size:28px; padding-bottom: 10px;}
+    .size-box caption span{font-size:14px;}
     .size-box th{width:300px; padding:10px; background-color:rgb(241, 241, 241); border-bottom:1px solid lightgray;}
     .size-box td{width:300px; text-align: center; padding:10px; border-bottom:1px solid lightgray;}
     .size-box tr:last-of-type{border:none;}
+
 
