@@ -28,7 +28,7 @@ a{color:#333;}
     .r2{width:30px; height: 30px; border:1px solid lightgray; text-align: center; line-height: 30px;}
 .button1{width:90%; margin:10px 10px 10px 22px; padding:15px; border:none; background-color:#333; color:white; cursor:pointer;}
 .button2{width:44.4%; margin:20px 5px 10px 23px; padding:15px; border:none; background-color:white; border:1px solid lightgray; cursor:pointer;}
-.button3{width:44.4%; padding:15px; border:none; background-color:white; border:1px solid lightgray; cursor:pointer;}
+.button3{width:43.4%; padding:15px; border:none; background-color:white; border:1px solid lightgray; cursor:pointer;}
 
 .secondbox{width:1300px; height:210px; margin:0 auto; position: relative; top:50px;}
 .imgbox1{width:725px; height:210px; display:flex; justify-content: space-evenly; align-items: center; float:left;}
