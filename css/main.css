@@ -28,7 +28,8 @@
     #section2 h1{text-align:center; position:relative; top:10px;}
     .outertext{position:relative; left:265px;}
     .outertext li{float:left; margin:10px; font-family:arial; font-size:18px;}
-    .outertext li:nth-of-type(1){color:#c4ab96; font-weight: bold;}
+    .outertext>li:nth-of-type(1)>a:nth-of-type(1){color:#c4ab96; font-weight: bold;} /* .outertext > li:nth-child(1) > a:nth-child(1) */
+    .outertext>li:nth-of-type(1)>a:not(:nth-of-type(1)){color:#333; font-weight: normal;}
     .outerbox{width:858px; height: 456px; float:right;}
     .outerbox div{display:inline-block;}
 
@@ -73,7 +74,8 @@
     #four>img:nth-of-type(1){width:575px; height: 640px; position:absolute; right:0;}
     #four h1{text-align: center; position:relative; top:13px;}
     .section4{width:1000px; height: 582px; float:left; margin-top:58px;}
-    .section4 ul li:nth-of-type(2){color:#c4ab96; font-weight: bold;}
+    .dresstext>li:nth-of-type(2)>a:nth-of-type(1){color:#c4ab96; font-weight: bold;}
+    /* .section4 ul li:nth-of-type(2) */
     .dresstext li{float:left; font-family:arial; font-size:18px; margin:10px; position:relative; left:235px;}
     .dressbox{float:left; width:900px; height: 458px;}
     .dressbox>div{float:left;}
