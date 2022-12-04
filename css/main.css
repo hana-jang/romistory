@@ -8,6 +8,7 @@
     font-weight: normal;
     font-style: normal;}
 
+    body{padding-top:140px;}
     #slider{width:100%; height: auto;}
     #slider img{width:100%;}
 
@@ -147,4 +148,3 @@
     .emailbox input{border:none; width:520px; background:ghostwhite; font-size:17px; outline: none;}
     .emailbox-text{width:240px; font-size:35px; color:white; display:inline-block; position:relative; right:975px; top:-85px; font-family:Arial; text-align: justify;}
     .emailbox-text>span{font-weight: bold;}
-    
