@@ -85,6 +85,7 @@ $(function(){
             $('.r1').css("border", "2px solid #333");
             $('.r1').css("color","#333");
             $('.r2').css("border", "1px solid lightgray");
+            $('.r2').css("color","lightgray");
         }
     });
     $('.r2').click(function () {
@@ -95,6 +96,19 @@ $(function(){
             $('.r2').css("border", "2px solid #333");
             $('.r2').css("color","#333");
             $('.r1').css("border", "1px solid lightgray");
+            $('.r1').css("color","lightgray");
         }
     });
+});
+
+$(function(){
+    $('.like').click(function(){
+        if($('.like').css("border") == '2px solid rgb(128, 128, 128)'){
+            $('.like').css("border","2px solid lightgray");
+            $('.like p:nth-of-type(2)').text("70");
+        } else {
+            $('.like').css("border","2px solid gray");
+            $('.like p:nth-of-type(2)').text("71");
+        }
+    })
 });
