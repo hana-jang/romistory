@@ -95,7 +95,7 @@ a{color:#333;}
     .fablic-box tr:nth-of-type(6)>td:nth-of-type(2) span{background-color:#e1e1e1; border-radius: 20px; padding:8px;}
     .fablic-box tr:nth-of-type(7)>td:nth-of-type(1){color:#333; font-weight: bold;}
     .fablic-box tr:nth-of-type(7)>td:nth-of-type(1) span{background-color:#e1e1e1; border-radius: 20px; padding:8px;}
-.model{width:900px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content: space-evenly; text-align: center; margin-bottom:100px;}
+.model{width:900px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content: space-evenly; text-align: center; margin-bottom:150px;}
 .model h1{width:900px; margin-bottom:30px; font-size:36px;}
 .model h3{font-size:23px; margin:5px 0 10px 0;}
 .model hr{width:50%; margin:0 0 10px 60px;}
@@ -106,7 +106,7 @@ a{color:#333;}
     .section3-1 ul li:nth-of-type(3){border-top:solid #333 3px; font-size:16px; font-weight: bold;}
     .section3-1 ul li{font-size:14px;}
 #review-box{width:1500px; margin:0 auto;}
-.first-review-box{width:1500px; height:150px; margin:0 auto; text-align: center; display:flex; flex-wrap:wrap; margin:5px 0 5px 0;}
+.first-review-box{width:1500px; height:150px; margin:0 auto; text-align: center; display:flex; flex-wrap:wrap; margin:5px 0 20px 0;}
     .star{width:375px; height:150px; border:solid 1px lightgray; border-right:solid 0.5px lightgrya; box-sizing: border-box; padding-top:40px;}
         .star>p:nth-of-type(1){font-weight: bold; font-size:15px;}
         .star>p:nth-of-type(2){color:orange; font-size:1.5rem;}
@@ -130,7 +130,7 @@ a{color:#333;}
         .writereview button{padding:10px; border:solid 1px lightgray; background-color:white; color:rgb(158, 158, 158); border-radius: 10px; cursor: pointer;}
         .writereview button:hover{border:2px solid #333;}
     .photoreviewcaption{text-align: left; font-size:1.5rem; font-weight: bold;}
-    .photoreview{width:1500px; height:370px; display:flex; justify-content: space-between; align-items:center; margin:10px 0 10px 0;}
+    .photoreview{width:1500px; height:370px; display:flex; justify-content: space-between; align-items:center; margin:10px 0 20px 0;}
         .firstreview{width:270px; height:370px; background-color:rgb(235, 235, 235); border:solid 1px lightgray;}
         .firstreview img{width:270px; height: 260px;}
         .firstreview-text{box-sizing: border-box; padding:10px 10px 0 10px;}
@@ -154,21 +154,16 @@ a{color:#333;}
     .reviewlist tr:last-of-type th{border:none;}
     .reviewlist tr:last-of-type td{border:none;}
 
-    .policy {margin:0 auto;  text-align: center; margin:8px 0 10px 0;}
+    .policy {margin:0 auto;  text-align: center; margin:8px 0 150px 0;}
     .policy span{font-weight: bold; font-size:20px;}
-    /*  #policybox{width:400px; height:500px; background-color:white; box-sizing: border-box; padding:10px 30px 0 30px; border:1px solid lightgray; border-radius: 10px;}
-        .xbox{display:inline-block; position:relative; bottom:40px; left:335px; font-weight: bold; font-size:20px; cursor: pointer;}
-        .xbox span:click #policybox{display:none;}
-        .first-policybox{padding:0 20px 20px 20px;}
-        .second-policybox{padding:0 20px 20px 20px;}
-        #policybox p{font-size:17px; font-weight: bold;}
-        #policybox ul li{list-style:circle; font-size:13px; text-align: left;} */
+    
 .section3-2{width: 1500px; height:50px; margin:0 auto; border-top:1px solid lightgray;}
     .section3-2 ul{width:900px; height:100%; margin:0 auto; display:flex;}
     .section3-2 ul li{width:25%; line-height: 50px; text-align: center;}
     .section3-2 ul li:nth-of-type(4){border-top:solid #333 3px; font-size:16px; font-weight: bold;}
     .section3-2 ul li{font-size:14px;}
 #ask-box{width:1500px; margin:0 auto;}
+#ask-box ul{margin-top:20px;}
 #ask-box ul li{font-size:12px;}
 #ask-box ul li:last-of-type{color:tomato; font-weight: bold;}
 #ask-box table{width:1500px; border-top:1px solid #333; border-bottom:1px solid #333; font-size:14px; margin-bottom:100px;}
