@@ -105,10 +105,17 @@ $(function(){
     $('.like').click(function(){
         if($('.like').css("border") == '2px solid rgb(128, 128, 128)'){
             $('.like').css("border","2px solid lightgray");
+<<<<<<< HEAD
             $('.like p:nth-of-type(2)').text("70");
         } else {
             $('.like').css("border","2px solid gray");
             $('.like p:nth-of-type(2)').text("71");
+=======
+            $('.like span').text("70");
+        } else {
+            $('.like').css("border","2px solid gray");
+            $('.like span').text("71");
+>>>>>>> b7903c28a25776d93b782a2e240b0a77db5bf867
         }
     })
 });
