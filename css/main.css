@@ -21,19 +21,6 @@
     .one_secondline div{width:150px; height:50px;  border:1px solid lightgray; line-height: 50px; text-align: center;}
     .one_secondline div a{font-weight: bold;}
 
-
-    
-
-    /*#one{width: 1183px; height: 172px; margin:0 auto;} <!--시즌오프, 월간베스트-->
-        #season{width: 591.5px; height: 98px; margin-top:33px; float:left; margin-left:-1px; background:#f0d8ff;}
-            #season img{width:65px; height: 65px; padding:15px; position:relative; left:80px; transform:rotate(-7deg); float:left;}
-            #season span:first-of-type{font-family:'GmarketSansMedium'; font-size:17px; position: relative; top:17.5px; left:120px; font-weight: bold;}
-            #season span:last-of-type{font-family:'GmarketSansMedium'; font-size:25px; position:relative; top:18.5px; left:119.5px;}
-        #best{width: 591.5px; height: 98px; float:left; margin-top:33px; background:#b8bacf;}
-            #best img{width:65px; height:65px; padding:15px; margin-left:100px; float:left;}
-            #best span:first-of-type{font-family: 'GmarketSansMedium'; font-size:17px; position:relative; top:17.5px; left:50px; font-weight: bold;}
-            #best span:last-of-type{font-family:'GmarketSansMedium'; font-size:25px; position:relative; top:17.5px; left:49.5px;}*/
-
     #two{width: 1183.2px; height: 610px; margin:0 auto;}
     #two>img:nth-of-type(1){width:575px; height:610px; position:absolute; left:0;}
     #section2{width:1000px; height:572px; float:right; margin-top:38px;}
@@ -67,7 +54,7 @@
     .outer3boxtext{border-top:solid 1px #333; width:245px; margin-top: 6px; padding-left:5px;}
 
 
-    #three{width: 1183.2px; height: 200px; margin:0 auto;} /* 배너 4개 */
+    #three{width: 1183.2px; height: 200px; margin:0 auto; clear:both;} /* 배너 4개 */
     #three>div:not(:nth-of-type(4)){float:left; margin-top:50px; margin-right:65px;}
         #coupon{width:247px; height:98px; background:#ffd2d9;}
             #coupon img{width:70px; position:relative; top:18px; left:14px;}
