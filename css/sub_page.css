@@ -68,7 +68,7 @@ hr {
 }
 
 .namebox h5 {
-    color: tomato;
+    color: #ff6347;
     margin: 8px 0 5px 12px;
 }
 
@@ -139,7 +139,7 @@ hr {
 .black2 {
     width: 20px;
     height: 20px;
-    background-color: black;
+    background-color: #333;
 }
 
 .beige1 {
@@ -156,7 +156,7 @@ hr {
 .beige2 {
     width: 20px;
     height: 20px;
-    background-color: burlywood;
+    background-color:#c4ab96;
 }
 
 .size1,
@@ -401,7 +401,7 @@ hr {
 }
 
 #detail-box li:nth-of-type(4) {
-    color: tomato;
+    color: #ff6347;
     font-weight: bold;
     font-size: 14px;
 }
@@ -653,18 +653,20 @@ hr {
     font-size: 15px;
 }
 
-.star>p:nth-of-type(2) {
+.star>div>span:nth-of-type(1){
     color: orange;
-    font-size: 1.5rem;
+    font-size: 30px;
+    position:relative;
+    bottom:3px;
 }
 
-.star>p:nth-of-type(2) span:nth-of-type(1) {
+.star>div>span:nth-of-type(2){
     font-weight: bold;
     font-size: 1.9rem;
     color: #333;
 }
 
-.star>p:nth-of-type(2) span:nth-of-type(2) {
+.star>div>span:nth-of-type(3){
     font-weight: bold;
     font-size: 1.9rem;
     color: lightgray;
@@ -977,7 +979,7 @@ hr {
 }
 
 #ask-box ul li:last-of-type {
-    color: tomato;
+    color: #ff6347;
     font-weight: bold;
 }
 
